@@ -60,7 +60,7 @@ GET /api/holidays?country=PK&year=2024
 #### Query Parameters
 
 - `country`: The ISO 3166-1 alpha-3 country code (e.g., `PK` for Pakistan).
-- `year`: The year for which to retrieve holidays (e.g., `2024`).
+- `year`: The year to retrieve holidays (e.g., `2024`).
 
 #### Response
 
@@ -81,7 +81,7 @@ Retrieve the list of supported countries.
 
 #### Request
 
-```http
+```HTTP
 GET /api/countries
 ```
 
