@@ -99,11 +99,11 @@ GET /api/countries
 
 ## Tools Required
 
-- **Node.js**: Ensure Node.js is installed on your machine.
-- **Docker**: For running Redis in a container.
-- **Redis**: Used for caching API responses to improve performance.
+- **Node.js**: Ensure Node.js is installed on your machine
+- **Docker**: For running Redis in a container
+- **Redis**: Used for caching API responses to improve performance
 
 ## Notes
 
-- Ensure Redis is running before starting the application to avoid connectivity issues.
-- Use the `.env` file to securely manage environment variables, especially the Calendarific API key.
+- Ensure Redis is running before starting the application to avoid connectivity issues
+- Use the `.env` file to manage environment variables securely, especially the Calendarific API key.
